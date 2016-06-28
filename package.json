@@ -1,5 +1,5 @@
 {
-  "name": "simple-node-project-boilerplate",
+  "name": "node-file-to-array",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianstarz/simple-node-project-boilerplate.git"
+    "url": "git+https://github.com/ianstarz/node-file-to-array.git"
   },
   "keywords": [
     "htmlbars",
@@ -19,14 +19,17 @@
   "author": "ianstarz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ianstarz/simple-node-project-boilerplate/issues"
+    "url": "https://github.com/ianstarz/node-file-to-array/issues"
   },
-  "homepage": "https://github.com/ianstarz/simple-node-project-boilerplate#readme",
+  "homepage": "https://github.com/ianstarz/node-file-to-array#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.11.1",
     "mocha": "^2.5.3",
     "nodemon": "^1.9.2",
     "walk-sync": "^0.2.6"
+  },
+  "dependencies": {
+    "rsvp": "^3.2.1"
   }
 }
